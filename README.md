@@ -7,7 +7,7 @@ A responsive family chitti web app, built with React, Vinext and Cloudflare D1.
 - Owner and member accounts using phone number/member ID plus a password (minimum 10 characters).
 - Multiple chittis, monthly schedules, fixed contribution amounts, single-use member invitations and WhatsApp share links.
 - Cash/UPI payment claims, transaction references, owner confirmation/rejection and per-month payment filters.
-- Owner-selected draw picker, server-selected random winners, shared result polling, unfolding animation and confetti.
+- Owner-selected draw picker, server-selected random winners, shared result polling, a draggable 3D-look glass bowl, folded-paper mixing and lift animation, unfolding winner reveal and confetti.
 - Previous winners cannot win again. Winners and paused members retain their full monthly obligations.
 - Recorded offline draws with a note; pausing/restoring eligibility does not delete records.
 - Personal contributions, awards, remaining commitments and net cash flow. No fees or interest model.
@@ -49,7 +49,7 @@ Before maintenance, enable **Settings → Maintenance mode** for each affected c
 - WhatsApp links open a draft for the sender. Automatic WhatsApp/SMS reminders and background push notifications require provider setup.
 - UPI opens an installed payment app when the owner provides a UPI ID. It does not verify settlement; the owner must confirm receipt.
 - Draw screens poll every four seconds. Animations start after a newly recorded result arrives and are not frame-synchronized.
-- The initial Sites deployment is private to its owner until sharing is configured.
+- The Site and GitHub repository are public. Chitti records still require an account and membership.
 
 ## Validation
 
