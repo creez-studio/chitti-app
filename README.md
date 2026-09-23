@@ -39,7 +39,7 @@ npm run build
 
 ## Hosting and GitHub
 
-This project is published through Sites. `.openai/hosting.json` identifies the Site; do not replace its project ID. Source changes on GitHub are not automatically deployed to Sites. Ask Codex to publish after edits. GitHub Actions checks the TypeScript build; it does not have deployment credentials.
+This project is published through Sites. `.openai/hosting.json` identifies the Site; do not replace its project ID. GitHub Pages provides a shareable link that redirects to the live app. GitHub Pages cannot run the account and database server. Source changes on GitHub are not automatically deployed to Sites. Ask Codex to publish after edits. GitHub Actions checks the TypeScript build; it does not have deployment credentials.
 
 Before maintenance, enable **Settings → Maintenance mode** for each affected chitti. Make and publish the changes, verify them, then disable maintenance. Automatic maintenance detection from GitHub and automatic deployment are not yet connected.
 
